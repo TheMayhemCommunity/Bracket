@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "https://citraldn.naylahanegan.com/", "destination": "http://citraldn.naylahanegan.com/" }]
+}
