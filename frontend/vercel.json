@@ -2,7 +2,8 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "http://citraldn.naylahanegan.com:8400/:path*"
+      "destination": "http://citraldn.naylahanegan.com:8400/:path*",
+      "has": [{ "type": "host", "value": "citraldn.naylahanegan.com" }]
     }
   ]
 }
