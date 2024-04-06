@@ -1,4 +1,8 @@
 {
-  "rewrites": [{ "source": "https://citraldn.naylahanegan.com:8400/*", "destination": "http://citraldn.naylahanegan.com:8400/*" }]
+  "rewrites": [
+    {
+      "source": "https://citraldn.naylahanegan.com:8400/(.*)",
+      "destination": "http://citraldn.naylahanegan.com:8400/$1"
+    }
+  ]
 }
-
